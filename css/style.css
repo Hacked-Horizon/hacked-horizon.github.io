@@ -1,0 +1,132 @@
+html {
+    background-color: aliceblue;
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+    background-color: #24272C;
+    color: white;
+}
+
+.container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 80px; /* Adjust this value to match the height of your footer */
+}
+
+
+.footer {
+    background-color: #222;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    position: fixed; /* Position the footer fixed to the viewport */
+    bottom: 0;
+    left: 0; /* Align it to the left edge */
+    right: 0; /* Align it to the right edge */
+    box-sizing: border-box; /* Include padding and border in the width calculation */
+    width: 100%; /* Set width to the absolute width of the page */
+}
+
+.center {
+    text-align: center;
+}
+
+.header {
+    display: inline-block;
+    background-color: #222;
+}
+
+button {
+    background-color: #222;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    height: 60px;
+    margin-left: -4px;
+    margin-right: 0px;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+.buttons_right {
+    float: right;
+}
+
+img {
+    border-radius: 50%;
+    height: 340px;
+    width: auto;
+} 
+
+.size-up {
+    font-size: 20px;
+}
+
+.size-up1 { 
+    font-size: 25px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #555;
+}
+
+.quote {
+    font-size: 22.5px;
+    margin-top: -10px;
+}
+
+.newsletter-signup {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: darkcyan;
+    height: 20vh;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 10px;
+}
+
+input {
+    background: black;
+    color: white;
+    text-align: center;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+}
+
+.name-box {
+    width: 200px;
+    height: 30px;
+    text-align: center;
+}
+
+.statistics {
+    background-color: darkseagreen;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 10px;
+}
+
+.stats-text {
+    margin-left: 3%;
+    font-size: 22.5px;
+}
