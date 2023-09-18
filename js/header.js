@@ -1,5 +1,5 @@
 function home() {
-    window.location.href="index.html";
+    window.location.href="/";
 }
 
 function forum() {
