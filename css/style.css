@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
 html {
     background-color: aliceblue;
     height: 100%;
@@ -12,6 +14,7 @@ body {
     overflow-x: hidden; /* Hide horizontal scrollbar */
     background-color: #24272C;
     color: white;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .container {
@@ -33,6 +36,7 @@ body {
     right: 0; /* Align it to the right edge */
     box-sizing: border-box; /* Include padding and border in the width calculation */
     width: 100%; /* Set width to the absolute width of the page */
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .center {
